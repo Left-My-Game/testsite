@@ -1,0 +1,150 @@
+* {
+    font-family: 'Arial';
+}
+
+.flashbox{
+    width: 200px;
+    padding: 20px;
+    background-color: #323233;
+    border-radius: 10px;
+    position: absolute
+    left: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.indexbox{
+    width: 200px;
+    padding: 20px;
+    background-color: #323233;
+    border-radius: 10px;
+    position: absolute
+    right: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.left, .right {
+    width: 200px; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
+    background-color: #323233;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.flash{
+    color: #a0b4db;
+}
+
+.flash:hover{
+    color: #bfd4ff;
+}
+
+body {
+    background-color: #1b1b1d;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px; 
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+button {
+    flex: 0 1 auto;
+    max-width: fit-content;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.251);
+    color: #b9ceed;
+    border: 2.5px solid #699df1;
+    border-radius: 10px;
+	padding: 5px 13px;
+    margin-bottom: 6px;
+    transition-duration: 0.45s;
+    animation: fadeIn ease-out 0.8s;
+    margin: 2px;
+}
+
+button:hover {
+    background-color:rgba(0,0,0,0.2);
+    border: 2.5px solid #8eb9ff;
+    color: rgb(190, 205, 255);
+}
+
+a:link {
+	color:#a0b4db;
+}
+
+a:visited {
+	color:#b5b7eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-size: 400% 400%;
+    border-radius:100px;
+    border: 10px solid #4f71b0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links button {
+    display: inline-block;
+    padding: 10px 10px;
+    border: 0px solid #6186c2;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    color: #b2b5ff;
+}
+
+.nav__links button:hover {
+    color: #ffffff;
+}
+
+
+p1 {
+  font-size: 1.75em;
+	color:#b5b7eb;
+}
+
+.settings-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #2e2e31;
+    border: 0px solid #1d1d1f;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .settings-button:hover {
+    background-color: #36363b;
+    border: 0px solid #1d1d1f;
+  }
